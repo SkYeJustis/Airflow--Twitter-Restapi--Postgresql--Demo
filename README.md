@@ -3,10 +3,9 @@ Initial tinkering of an airflow process:
 * Read latest tweets based on a chosen hashtag (#captainmarvel)
 * Push tweets into a postgresql database
 
-## File structure on airflow after airflow is installed
+## File structure for dags and additional logic at AIRFLOW_HOME
 * AIRFLOW_HOME=~/airflow
 <br><br>
-~/airflow <br>
 > dags <br>
 >> Tweet (main business functions) <br>
 >>> connect.py (connection to database script) <br>
