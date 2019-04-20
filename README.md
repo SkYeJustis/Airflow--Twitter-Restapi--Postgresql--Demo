@@ -5,7 +5,7 @@ Initial tinkering of an airflow process:
 
 ## File structure on airflow after airflow is installed
 * AIRFLOW_HOME=~/airflow
-* AIRFLOW_HOME
+* ~/airflow
 *     dags
 *         Tweet (main business functions)
 *             connect.py (connection to database script)
