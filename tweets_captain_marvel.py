@@ -20,7 +20,8 @@ dag = DAG(DAG_VERSION,
           default_args=default_args,
           schedule_interval=SCHEDULE_INTERVAL,
           concurrency=1,
-          max_active_runs=1)
+          max_active_runs=1,
+          catchup=False)
 
 get_data = PythonOperator(
     task_id = 'get_data',
