@@ -7,10 +7,10 @@ Initial tinkering of an airflow process:
 * AIRFLOW_HOME=~/airflow
 <br><br>
 ~/airflow <br>
--dags <br>
---Tweet (main business functions) <br>
----connect.py (connection to database script) <br>
----data_retrieval.py (getting data) <br>
---core (execution of business functions) <br>
----execute_tweets.py (call functions from Tweet) <br>
---tweets_captain_marvel.py (the dag definition) <br>
+> dags <br>
+>> Tweet (main business functions) <br>
+>>> connect.py (connection to database script) <br>
+>>> data_retrieval.py (getting data) <br>
+>> core (execution of business functions) <br>
+>>> execute_tweets.py (call functions from Tweet) <br>
+>> tweets_captain_marvel.py (the dag definition) <br>
